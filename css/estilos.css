@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*
+Colores institucionales permitidos en el diseño
+1. Azul purpura: #4C2882
+2. Violeta espectral: #9F00FF
+3. Violeta: #78288C
+4. Amatista: #9966CC
+5. Lavanda: #B57EDC
+6. Malva: #E0B0FF
+
+7. Naranja complementario: #FF931E
+8. Amarillo complementario: #FFF85C
+
+9. Rosado adyacente: #D558F4
+
+
+*/
+
+.header {
+    background-color: #9966CC;
+    color: black;
+}
+
+
+.header a {
+    color:black;
+    text-decoration: none;
+}
+
+
+.hero {
+    height: 300px;
+    text-align: right;
+    background-color:#E0B0FF;
+    background-image: url(../img/main_isotipo.png);
+    background-size: 250px 250px;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.hero_logo {
+    background-image: url(../img/main_isotipo.png);
+    background-size: 300px 300px;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+h1 strong {
+    color: #4C2882;
+}
+
+
+.producto1_detalles, 
+.producto2_detalles, 
+.producto3_detalles {
+    width: 500px;
+}
+
